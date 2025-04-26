@@ -13,8 +13,6 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding-left: 50px;
-    padding-right: 50px;
 }
 
 .hero-main-text {
@@ -57,27 +55,25 @@ a {
     border-radius: 10px;
 }
 
-.button {
+.hero-button {
     font-size: 14px;
     background-color: #3882F6;
     border: none;
     color: #F9FAF8;
-    padding: 7px 20px;
-    border-radius: 7px;
+    margin-top: 10px;
+    padding: 8px 20px;
+    border-radius: 8px;
 }
 
 .hero-secondary-text, .header-link-text {
     font-size: 18px;
     color: #e5e7eb;    
+    margin-top: 10px;    
 }
 
 .header-logo-text {
     font-size: 24px;
     color: #f9faf8; 
-}
-
-.button, .call-to-action {
-    background-color: #3882f6;
 }
 
 .information-header-text {
@@ -105,6 +101,7 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .random-content > img {
@@ -114,10 +111,15 @@ a {
 
 .text {
     width: 100px;
+    padding-top: 10px;
 }
 
 .quote-section {
     background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 75px 225px;
 }
 
 .quote-text {
@@ -126,6 +128,54 @@ a {
     font-style: italic;
 }
 
+.quote-author {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: right;
+}
+
+.call-to-action {
+    padding: 80px 175px;
+}
+
+.call-box {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    padding: 40px 100px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.call-box-main {
+    font-size: 30px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.call-box-secondary {
+    font-size: 24;
+    margin: 0;
+}
+
+.call-button {
+    font-size: 18px;
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    color: #F9FAF8;
+    padding: 8px 20px;
+    border-radius: 8px;
+}
+
 .footer {
     color: #e5e7eb; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
